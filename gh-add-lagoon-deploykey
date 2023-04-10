@@ -1,0 +1,10 @@
+#!/bin/bash
+
+PROJECT="demo-poly-2023-theme-beta"
+echo "Project: $PROJECT" 
+
+LAGOON_KEY=`lagoon get project-key -p $PROJECT | tail -n 1` 
+echo $LAGOON_KEY > /tmp/lagoon-polybetakeypub.aio 
+echo "Key: $LAGOON_KEY" 
+
+gh repo deploy-key add /tmp/lagoon-polybetakeypub.aio
