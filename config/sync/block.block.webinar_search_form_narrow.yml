@@ -1,0 +1,23 @@
+uuid: c3479b7e-1c39-43f9-9416-183caf0cc49d
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - webinar
+_core:
+  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+id: webinar_search_form_narrow
+theme: webinar
+region: header
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

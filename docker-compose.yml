@@ -4,7 +4,8 @@ x-volumes:
   &default-volumes
     # Define all volumes you would like to have real-time mounted into the docker containers
     volumes:
-      - ./web/themes/custom/webinar:/app/web/themes/custom/webinar:delegated ### Local overrides to mount host filesystem. Automatically removed in CI and PROD.
+      - ./web/themes/custom/webinar:/app/web/themes/custom/webinar:delegated 
+      - ./config:/app/config:delegated 
       - files:/app/web/sites/default/files
 
 x-environment:

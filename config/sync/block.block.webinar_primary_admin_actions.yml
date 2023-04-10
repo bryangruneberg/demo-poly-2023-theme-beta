@@ -1,0 +1,20 @@
+uuid: 1ba9447a-09a8-4410-ad9f-bc9aff2567aa
+langcode: en
+status: true
+dependencies:
+  theme:
+    - webinar
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: webinar_primary_admin_actions
+theme: webinar
+region: header
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

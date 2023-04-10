@@ -1,0 +1,22 @@
+uuid: b9718b09-bbaf-465c-a55c-ae64d45d64bf
+langcode: en
+status: true
+dependencies:
+  theme:
+    - webinar
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: webinar_primary_local_tasks
+theme: webinar
+region: header
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }
