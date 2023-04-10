@@ -2,7 +2,7 @@ _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
 uuid: e55a2c5a-192d-41b6-a6ea-b486d90b9d55
-name: 'Drush Site-Install'
+name: 'Poly Theme Beta'
 mail: admin@example.com
 slogan: ''
 page:
